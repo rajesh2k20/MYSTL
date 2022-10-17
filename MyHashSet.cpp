@@ -5,7 +5,7 @@ private:
     int * table;
     int size;
 
-    int m=7;// any prime wich is close to size .
+    int m=7;// any prime which is close to size .
 
 public:
 
@@ -54,7 +54,7 @@ public:
            probing+= offset;
 
 
-           probinf %=m;
+           probing %=m;
 
            if(initial_probing ==probing){
               cout<<"Size is full";
